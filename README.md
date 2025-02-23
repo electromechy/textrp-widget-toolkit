@@ -7,17 +7,16 @@ Reusable framework for creating Matrix widgets.
 
 This repository contains multiple [packages](./packages) that provide reusable components that can be used to write Matrix/Element widgets.
 
-- [`@matrix-widget-toolkit/api`](./packages/api): A package that wraps [`matrix-widget-api`](https://github.com/matrix-org/matrix-widget-api) to provide a more convenient API.
-- [`@matrix-widget-toolkit/react`](./packages/react): A package that provides a Widget API integration for React apps.
-- [`@matrix-widget-toolkit/mui`](./packages/mui): A package that provides a matching Mui theme for Element.
-- [`@matrix-widget-toolkit/testing`](./packages/testing): Vitest Testing support for `@matrix-widget-toolkit/api`.
-- [`@matrix-widget-toolkit/widget-server`](./containers/widget-server): A container to host a Matrix widget in a production environment.
+- [`@textrp-widget-toolkit/api`](./packages/api): A package that wraps [`matrix-widget-api`](https://github.com/matrix-org/matrix-widget-api) to provide a more convenient API.
+- [`@textrp-widget-toolkit/react`](./packages/react): A package that provides a Widget API integration for React apps.
+- [`@textrp-widget-toolkit/mui`](./packages/mui): A package that provides a matching Mui theme for Element.
+- [`@textrp-widget-toolkit/testing`](./packages/testing): Vitest Testing support for `@matrix-widget-toolkit/api`.
+- [`@textrp-widget-toolkit/widget-server`](./containers/widget-server): A container to host a Matrix widget in a production environment.
 - More packages to follow…
 
 ## Background
-
-Nordeck is developing multiple widgets that are all based on the [`matrix-widget-api`](https://github.com/matrix-org/matrix-widget-api).
-This collection of packages shares the common parts of our widgets:
+TextRP is building on the great work of Nordeck which is developing multiple widgets that are all based on the [`matrix-widget-api`](https://github.com/matrix-org/matrix-widget-api).
+This collection of packages shares the common widget parts:
 
 - Advanced patterns using the `matrix-widget-api`, providing an API that better fits our use cases.
 - Integrating it into React applications.
